@@ -49,7 +49,7 @@ class db(object):
         q = {}
         args = args.__dict__
         for key, func in self.allowed_keys:
-            if key in args and args[key]:
+            if args.get(key):
                 val = func(args[key])
                 q[key] = val
         return [each for each in self.client.renewable_energy_2015[self.collection_].find(q)]

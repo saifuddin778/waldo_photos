@@ -14,5 +14,6 @@ After setting up the environment and dependencies:
     * `--key [image_key]`
     * `--lastmodified [lastmodified data]`
     * `--etag [image_etag]`
+    * If none of the above arguments is passed, all the images will be returned
 * To remove all the photos from db: `python main.py --action remove`
 * For help: `python main.py --help`
