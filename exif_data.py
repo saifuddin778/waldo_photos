@@ -40,6 +40,5 @@ class exif_data(object):
                     new_key = key.replace(" ", "_").lower()
                     image[new_key] = func(val.printable)
             except Exception, e:
-                print e
                 pass
         return image
