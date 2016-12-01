@@ -1,0 +1,6 @@
+bucket_url = "http://s3.amazonaws.com/waldo-recruiting/"
+item_key = "Contents"
+null_data = "<null><null></null></null>"
+mongouri = "mongodb://waldo_photos_test:testabc@ds017231.mlab.com:17231/renewable_energy_2015"
+collection_ = "waldo_photos_test"
+temp_location = "tmp_data/"

@@ -1,0 +1,6 @@
+requests
+bson
+pymongo
+xmltodict
+exifread
+arrow
